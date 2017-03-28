@@ -7,8 +7,8 @@ Task_3:
 */
 
 $I->amOnPage('/');
-$I->see('Alle categorieën', '<div class="ProductNav__TogglerText text-nobreak">Alle categorieën</div>')
-$I->seeNumberOfElements('<span class="ProductNav__CategoryTitle">', 11);
+$I->see('Alle categorieën', 'div class="ProductNav__TogglerText text-nobreak">Alle categorieën')
+$I->seeNumberOfElements('span class="ProductNav__CategoryTitle"', 11);
 
 
 ?>
