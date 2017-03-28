@@ -8,7 +8,7 @@ Task_2:
 
 
 $I->amOnPage('/');
-$I->see('Populairste producten', 'h2 class="h h--branded');
+$I->see('Populairste producten', 'h2 class="h h--branded"');
 
 
 ?>
